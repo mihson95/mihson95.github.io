@@ -1,0 +1,153 @@
+/* Global Styles */
+body {
+    font-family: Georgia;;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light shade of white */
+    color: #060707; /* Black text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Home Page Styles */
+
+
+
+/* Portfolio Page Styles */
+.project {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    color: #060707;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 15px;
+}
+
+.project a {
+    color: #060707;
+    text-decoration: none;
+}
+
+
+/* Awards/Achievements Page Styles */
+.award, .certification {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.award h2, .certification h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.award ul, .certification ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.award li, .certification li {
+    margin-bottom: 10px;
+}
+
+/* Profile Section Styles */
+#profile-section {
+    flex: 0.2; /* Occupy available space */
+    margin-right: 20px; /* Add some spacing between the divs */
+}
+
+#profile-picture {
+    width: 180px; /* Adjust the size of the profile picture */
+    height: 180px; /* Maintain aspect ratio for circular shape */
+    border: 4px solid rgba(210, 205, 205, 0.5); /* Opalescent white border with thickness */
+    border-radius: 50%; /* Make it circular */
+    margin-bottom: 5px; /* Space below the profile picture */
+    object-fit: cover; /* Maintain aspect ratio and cover entire area */
+}
+
+#job-title {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.social-links {
+    margin-top: 20px;
+    font-size: 11px;
+    font-family: Verdana;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 15px; /* Adjust the size of social media icons */
+    height: 15px;
+    margin-right: 5px;
+}
+
+.social-text {
+    margin-top: 5px;
+}
+
+#content-section {
+    margin-left: 5px; /* Add some space between profile and content */
+    flex: 1; /* Occupy available space */
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+}
