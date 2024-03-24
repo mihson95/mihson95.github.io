@@ -1,22 +1,23 @@
 /* Global Styles */
+/* Professional Corporate Theme */
 body {
-    font-family: Georgia;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9; /* Light shade of white */
-    color: #060707; /* Black text */
+    background-color: #232323;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #007bff;
+main {
+    margin: 20px;
+}
+
+header, footer {
+    background-color: #37474f;
     color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-h1 {
-    margin: 0;
 }
 
 nav ul {
@@ -31,137 +32,41 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #42a5f5;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 main {
     padding: 20px;
 }
 
-footer {
-    background-color: #007bff;
+a {
+    text-decoration: none;
+}
+/* Hover Effects */
+.project, .award, .certification {
+    background-color: #424242;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.project a, .award a, .certification a {
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
 }
 
-/* Home Page Styles */
-
-
-
-/* Portfolio Page Styles */
-.project {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.project h2 {
-    color: #060707;
-    margin-bottom: 10px;
-}
-
-.project p {
-    margin-bottom: 15px;
-}
-
-.project a {
-    color: #060707;
-    text-decoration: none;
+.project a:hover, .award a:hover, .certification a:hover {
+    color: #42a5f5;
 }
 
 
-/* Awards/Achievements Page Styles */
-.award, .certification {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.award h2, .certification h2 {
-    color: #4CAF50;
-    margin-bottom: 10px;
-}
-
-.award ul, .certification ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-.award li, .certification li {
-    margin-bottom: 10px;
-}
-
-
-
-/* Profile Section Styles */
-
-/* Adjust flex value for browsers with a minimum width of 768px */
-@media screen and (min-width: 768px) {
-    #profile-section {
-        flex: 0.2; /* Adjust the flex value for browsers */
-        margin-right: 15px; /* Add some spacing between the divs */
-    }
-}
-
-/* Adjust flex value for mobile devices with a maximum width of 767px */
-@media screen and (max-width: 767px) {
-    #profile-section {
-        flex: 0.7; /* Adjust the flex value for mobile devices */
-        margin-right: 15px; /* Add some spacing between the divs */
-    }
-}
-
-#profile-picture {
-    width: 150px; /* Adjust the size of the profile picture */
-    height: 175px; /* Maintain aspect ratio for circular shape */
-    border: 4px solid rgba(210, 205, 205, 0.5); /* Opalescent white border with thickness */
-    border-radius: 50%; /* Make it circular */
-    margin-bottom: 5px; /* Space below the profile picture */
-    object-fit: cover; /* Maintain aspect ratio and cover entire area */
-}
-
-#job-title {
-    font-weight: bold;
-    margin-top: 0;
-}
-
-.social-links {
-    margin-top: 20px;
-    font-size: 11px;
-    font-family: Verdana;
-}
-
-.social-links a {
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: none;
-}
-
-.social-links img {
-    width: 15px; /* Adjust the size of social media icons */
-    height: 15px;
-    margin-right: 5px;
-}
-
-.social-text {
-    margin-top: 5px;
-}
-
-#content-section {
-    margin-left: 5px; /* Add some space between profile and content */
-    flex: 1; /* Occupy available space */
-}
-
-.container {
-    display: flex; /* Use flexbox for layout */
+.project:hover, .award:hover, .certification:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
