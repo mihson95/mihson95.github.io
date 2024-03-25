@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .circle-container {
     position: absolute;
     top: 20px;
@@ -23,13 +24,13 @@ body {
     .circle-container {
         width: 80px; /* Adjusted size for smaller screens */
         height: 80px; /* Adjusted size for smaller screens */
-        top: 10px; /* Adjusted position for smaller screens */
+        top: 15px; /* Adjusted position for smaller screens */
         left: 50%; /* Adjusted for centering horizontally */
         transform: translateX(-50%); /* Centering horizontally */
     }
 
-    header {
-        margin-top: 120px;
+    header h1 {
+        padding-top: 60px;
     }
 }
 
