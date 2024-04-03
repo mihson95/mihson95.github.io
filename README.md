@@ -4,6 +4,7 @@ Welcome to my personal website! This site showcases my portfolio, resume/CV, pro
 
 ![Version](https://img.shields.io/badge/version-1.0-blue)
 
+Check the Latest Website here: [website link](https://mihson95.github.io)
 ## Sections
 
 ### Home Page
