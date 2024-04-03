@@ -42,7 +42,11 @@ body {
 main {
     margin: 20px;
 }
-
+.pdf {
+    margin-left: 50%;
+    width: 40%;
+    aspect-ratio: 1;
+}
 header, footer {
     background-color: #37474f;
     color: #fff;
@@ -83,6 +87,37 @@ main {
 a {
     text-decoration: none;
 }
+
+/* Footer Styles */
+.contact_two_columns {
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+    padding-left: 30px;
+}
+.contact_info_column {
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact_info_column ul {
+    margin-top: 36px;
+    list-style: none;
+}
+
+.contact_info_column li {
+    margin-bottom: 10px;
+}
+.contact_info_column img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
 /* Hover Effects */
 .project, .award, .certification {
     background-color: #424242;
@@ -106,3 +141,45 @@ a {
     transform: scale(1.02);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+/* Styles for the scroll to top button */
+.up-arrow-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .up-arrow-container img:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease;
+
+  }
+  
+  .up-arrow-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*Education Styles*/
+
+  .two-columns-education {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .column-institute-name {
+    width: 50%;
+  }
+  .column-institute-logo {
+    width: 50%;
+    text-align: center;
+  }
+
+  .column-institute-logo img {
+    width: 150px;
+    height: 150px;
+  }
+  
