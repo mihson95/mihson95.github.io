@@ -131,7 +131,7 @@ a {
 
 @media only screen and (max-width: 600px) {
     .google_maps_column {
-        width: 35%;
+        width: 30%;
     }
 }    
 /* Hover Effects */
