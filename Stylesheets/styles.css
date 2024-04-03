@@ -103,6 +103,7 @@ a {
 }
 .contact_info_column {
     display: flex;
+    width: 50%;
     flex-direction: column;
     text-align: left;
 }
@@ -122,11 +123,15 @@ a {
     margin-right: 10px;
 }
 
+#map {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
 @media only screen and (max-width: 600px) {
     .google_maps_column {
-        width: 30%;
-        width: 75px;
-        height: 75px;
+        width: 35%;
     }
 }    
 /* Hover Effects */
