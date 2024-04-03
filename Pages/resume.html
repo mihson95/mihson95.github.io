@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mihir Sontake - Java Software Developer - Ex Citibank</title>
-    <link rel="stylesheet" href="../Stylesheets/resumestyles.css">
+    <link rel="stylesheet" href="../Stylesheets/styles.css">
     <link rel="icon" href="../Images/favicon.png" type="image/x-icon">
 </head>
-<body>
+<body style="background-color: white; color: black;">
     <header>
         <h1>Resume/CV</h1>
         <nav>
@@ -22,7 +22,7 @@
             </ul>
         </nav>
     </header>    
-    <main>
+    <main style="padding: 20px;">
         <div class="circle-container">
             <img src="../Images/Profile.jpg" alt="My Picture" class="profile-picture">
         </div>
@@ -30,16 +30,16 @@
         <div id ="job-title" style="font-size: 22px"><b>SENIOR JAVA DEVELOPER</b></div>
         <address>
             Address: University of Limerick, Limerick, Ireland<br>
-            <a href="https://linkedin.com/in/mihir-sontake">LinkedIn</a> | 
-            <a href="mailto:sontakemihir@gmail.com">sontakemihir@gmail.com</a> | 
-            <a href="https://github.com/mihson95">GitHub</a> | 
+            <a href="https://linkedin.com/in/mihir-sontake" style="color: black;">LinkedIn</a> | 
+            <a href="mailto:sontakemihir@gmail.com" style="color: black;">sontakemihir@gmail.com</a> | 
+            <a href="https://github.com/mihson95" style="color: black;">GitHub</a> | 
             +353 (89) 202 6305
         </address>
     
     
     
         <section id="skills">
-            <h2>SKILLS</h2>
+            <h2 class="header">SKILLS</h2>
             <ul>
                 <li><b>Backend:</b> Java 11, 8 | Spring Boot | OOP | OOAD | REST APIs | Spring Data JPA | Spring Security | JWT | Postman</li>
                 <li><b>Fullstack:</b> Angular | JavaScript</li>
@@ -53,7 +53,7 @@
         </section>
         
         <section id="experience">
-            <h2 id = "experience">EXPERIENCE</h2>
+            <h2 class="header">EXPERIENCE</h2>
             <div class="job">
                 <h3>Senior Java Developer, Rosmerta Technologies Ltd. – Gurugram, India</h3>
                 <p><strong>01/2022 – 08/2023</strong></p>
@@ -93,7 +93,7 @@
         </section>
         
         <section id="education">
-            <h2>EDUCATION</h2>
+            <h2 class="header">EDUCATION</h2>
             <ul>
                 <li>Graduating 09/2024: Master of Science in Software Engineering and Data Analytics, University of Limerick – Limerick, Ireland</li>
                 <li>08/2021 - 08/2023: Postgraduate Diploma in Computer Science, Scaler Academy</li>
@@ -113,16 +113,15 @@
                     <li><a href="https://github.com/mihson95/" target="_blank"><img src="../Images/git.png" alt="GitHub"></a></li>
                     <li><img src="../Images/pin.png" alt="Address">Heather House, Cappavilla Village, University of Limerick, Limerick, Ireland</li>
                     <li><img src="../Images/phone.png" alt="Phone">+353 89 202 6305</li>
-                    <li><img src="../Images/email.png" alt="Email">sontakemihir@gmail.com</li>
+                    <li><a href="mailto:sontakemihir@gmail.com" style="color: #B2BEB5"><img src="../Images/email.png" alt="Email">sontakemihir@gmail.com</a></li>
                 </ul>
             </div>
         </div>
         <p>&copy; 2024 Mihir Sontake - All rights reserved.</p>
         <div class="up-arrow-container">
-            <a href="#">
-                <img src="../Images/uparrow.png" alt="Scroll to top">
-            </a>
+            <button onclick="scrollToTop()"><img src="../Images/uparrow.png" alt="Scroll to top"></button>
         </div>
     </footer>
+    <script src="../Javascript/script.js"></script>
 </body>
 </html>
