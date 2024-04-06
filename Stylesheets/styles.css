@@ -42,11 +42,7 @@ body {
 main {
     margin: 20px;
 }
-.pdf {
-    margin-left: 50%;
-    width: 40%;
-    aspect-ratio: 1;
-}
+
 header {
     background-color: #37474f;
     color: #fff;
@@ -123,12 +119,26 @@ a {
     margin-right: 10px;
 }
 
-#map {
-    height: 100%;
-    width: 100%;
-    padding: 10px;
+/* Project Styles */
+
+.project_two_columns {
+    display: flex;
+    flex-direction: row;
 }
 
+.project_description {
+    width: 50%;
+}
+
+.project_logo {
+    width: 50%;
+    text-align: center;
+}
+
+.project_logo img {
+    width: 30%;
+    aspect-ratio: 1;
+}
 /* Hover Effects */
 .project, .award, .certification {
     background-color: #424242;
@@ -140,7 +150,7 @@ a {
 }
 
 .project a, .award a, .certification a {
-    color: #fff;
+    color: #0077CC;
 }
 
 .project a:hover, .award a:hover, .certification a:hover {
@@ -198,46 +208,15 @@ a {
   }
 
   .column-institute-logo img {
-    width: 170px;
-    height: 170px;
+    width: 30%;
+    aspect-ratio: 1;
   }
   
-  /*Resume Styles */
+  .column-institute-name a {
+    color: #fff;
+  }
 
-address {
-    font-style: normal;
-    text-align: center;
-    margin-top: 10px;
-}
+  .column-institute-name a:hover {
+    color: #42a5f5;
+  }
 
-address a {
-    text-decoration: none;
-}
-
-.job {
-    margin-bottom: 20px;
-}
-
-.job h3 {
-    margin-bottom: 5px;
-}
-
-.job p {
-    margin-top: 5px;
-}
-
-#name {
-    margin: 0;
-}
-#name, #job-title {
-    text-align: center;
-}
-
-.header{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#skills ul {
-    margin: 0;
-}
