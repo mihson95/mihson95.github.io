@@ -103,7 +103,7 @@ a {
 }
 .contact_info_column {
     display: flex;
-    width: 50%;
+    width: 100%;
     flex-direction: column;
     text-align: left;
 }
@@ -129,11 +129,6 @@ a {
     padding: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-    .google_maps_column {
-        width: 28%;
-    }
-}    
 /* Hover Effects */
 .project, .award, .certification {
     background-color: #424242;
