@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mihir Sontake - Java Software Developer - Ex Citibank</title>
+    <title>Mihir Sontake's Portfolio</title>
     <link rel="stylesheet" href="../Stylesheets/styles.css">
     <link rel="icon" href="../Images/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1>Portfolio</h1>
+        <h1>Projects</h1>
         <nav>
             <ul>
                 <li><a href="../">Home</a></li>
-                <li><a href="about">About Me</a></li>
-                <li><a href="./">Projects</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="./projects">Projects</a></li>
                 <li><a href="resume">Resume</a></li>
                 <li><a href="education">Education</a></li>
                 <li><a href="awards">Academic Achievements and Certifications</a></li>
@@ -30,32 +30,20 @@
         <div class="container"> 
             <div id="content-section">
         
+
         <section class="project">
-            <h2>Portfolio Website</h2>
-            <div class = "project_two_columns">
-                <div class = "project_description">
-                    <p>My personal website! This site showcases my portfolio, resume/CV, projects, and background. This site was built using GitHub Pages.</p>
-                    <a href="https://github.com/mihson95/mihson95.github.io">GitHub Link</a>
-                </div>
-                <div class = "project_logo">
-                    <img src="../Images/portfolio.webp">
-                </div>
-            </div>
-            
-        </section>
-        
-        <section class="project">
-            <h2>Tutorial for CS6402 Java Help</h2>
-            <div class = "project_two_columns">
-                <div class = "project_description">
-                    <p>Weekly Planned Tutorial for CS6402 Java Help. I will post solutions for Java Programming here every week to help students of CS6402.</p>
-                    <a href="https://github.com/mihson95/JavaPracticeQuestionsForCS6402">GitHub Link</a>
-                </div>
-                <div class = "project_logo">
-                    <img src="../Images/6-512.webp">
-                </div>
-            </div>
-        </section>
+                <h2>Todo Application with Notification System</h2>
+                <div class = "project_two_columns">
+                    <div class = "project_description">
+                        <p>The project employed a microservices architecture having components such as API Gateway and Eureka Server and 2 Microservices. Users can create labels for lists such as Grocery, Today, Travel, etc. and add items to them using Factory Pattern. 
+                            I was responsible for the Priority Module using which Users can set Priority to an item such as High, Low, Medium, Special dynamically using Decorator Pattern, and Creating API Gateway using Spring Cloud Gateway and Eureka Server using Spring Cloud Netflix Library. Users get notified on email on due date and on todo completion using Observer Pattern. Application had User Authentication implemented using JWT token. Demonstrated Multiple Design Patterns such as Observer, Decorator, Command. Developed an Azure DevOps CI pipeline. Added Unit Testing using JUnit. Developed this team project for the Module CS5721 - Software Design. Learnt important skills such as conceptualising, designing, developing, testing, and deploying a software application written in Java 11 and Spring Boot. Learnt effective teamwork and collaboration from this project.</p>
+                        <a href="https://github.com/mihson95/To-do-notification-application">GitHub Link</a>    
+                    </div>
+                    <div class = "project_logo">
+                        <img src="../Images/todo.png">
+                    </div>
+                </div>        
+        </section>        
 
         <section class="project">
             <h2>Migrating Monolith Application to Microservices Architecture</h2>
@@ -70,23 +58,50 @@
         </section>
 
         <section class="project">
-            <h2>Todo Application with Notification System</h2>
+            <h2>Big Data Approach for Credit Card Fraud Detection</h2>
             <div class = "project_two_columns">
                 <div class = "project_description">
-                    <p>The project employed a microservices architecture having components such as API Gateway and Eureka Server and 2 Microservices. Users can create labels for lists such as Grocery, Today, Travel, etc. and add items to them using Factory Pattern. 
-                        I was responsible for the Priority Module using which Users can set Priority to an item such as High, Low, Medium, Special dynamically using Decorator Pattern, and Creating API Gateway using Spring Cloud Gateway and Eureka Server using Spring Cloud Netflix Library. Users get notified on email on due date and on todo completion using Observer Pattern. Application had User Authentication implemented using JWT token. Demonstrated Multiple Design Patterns such as Observer, Decorator, Command. Developed an Azure DevOps CI pipeline. Added Unit Testing using JUnit. Developed this team project for the Module CS5721 - Software Design. Learnt important skills such as conceptualising, designing, developing, testing, and deploying a software application written in Java 11 and Spring Boot. Learnt effective teamwork and collaboration from this project.</p>
+                    <p>Course Project for CS6502 - Applied Big Data and Visualization. Credit card fraud is a pervasive issue, escalating in frequency over recent years. Our project endeavours to combat this menace by harnessing the power of big data analytics and machine learning. By scrutinizing transactional data and employing advanced algorithms, we aim to unearth patterns and anomalies indicative of fraudulent activity in real time. Through this initiative, we aspire to fortify the security of financial transactions and curtail the proliferation of fraudulent practices. The output from our Project would be predicting whether a transaction is fraudulent or not fraudulent, based on the historical data which is used to train the machine learning models.</p>
+                    <p>We utilized PySpark within Jupyter Notebooks. By harnessing the power of in-memory processing, distributed computing, fault tolerance, and advanced analytics, we aimed to enhance the accuracy and efficiency of fraud detection. Our project’s goal is to safeguard financial institutions and consumers against malicious activities.</p>
+                    <a href="https://github.com/mihson95/BigDataCreditCardFraudDetection">GitHub Link</a>
                 </div>
                 <div class = "project_logo">
-                    <img src="../Images/todo.png">
+                    <img src="../Images/creditcardfraud.webp">
                 </div>
             </div>        
         </section>
 
         <section class="project">
+            <h2>Data Mining for Steel Industry Energy Consumption</h2>
+            <div class = "project_two_columns">
+                <div class = "project_description">
+                    <p>The project delved into the nuances of energy consumption in the steel industry, leveraging Python and Jupyter Notebook for analysis. Beginning with thorough Exploratory Data Analysis (EDA), the project unveiled insights into statistical summaries, distribution patterns, correlations, and temporal trends within the dataset. Subsequent data preparation involved a meticulous process of cleaning, formatting, imputation, and transformation to ensure data integrity and usability. Clustering techniques were then applied to identify inherent patterns and groupings within the data, shedding light on potential energy consumption profiles. Classification tasks were undertaken to classify and predict energy consumption behaviour using a variety of classifiers, facilitating a deeper understanding of the dataset's characteristics. Lastly, regression analysis was employed to model and predict energy consumption trends, providing actionable insights for optimizing energy usage and promoting sustainability in the steel industry. Through this multifaceted approach, the project aimed to unlock valuable insights critical for informed decision-making and operational efficiency improvements.</p>
+                    <a href="https://github.com/mihson95/data_mining_project">GitHub Link</a>
+                </div>
+                <div class = "project_logo">
+                    <img src="../Images/dataMining.png">
+                </div>
+            </div>        
+        </section>
+
+        <section class="project">
+            <h2>Portfolio Website</h2>
+            <div class = "project_two_columns">
+                <div class = "project_description">
+                    <p>A Personal Portfolio to showcase my Technical and Professional Journey.</p>
+                    <a href="https://github.com/mihson95/mihson95.github.io">GitHub Link</a>
+                </div>
+                <div class = "project_logo">
+                    <img src="../Images/portfolio.webp">
+                </div>
+            </div>
+        </section>
+        
+        <section class="project">
             <h2>Leetcode DSA Problems Solutions</h2>
             <div class = "project_two_columns">
                 <div class = "project_description">
-                    <p>Solutions of Easy and Medium commonly asked Interview Questions picked from Leetcode.</p>
+                    <p>A project to showcase my skills in solving DSA questions. Common questions asked in Interviews picked from Leetcode.</p>
                     <a href="https://github.com/mihson95/leetcodeDSAProblems">GitHub Link</a>
                 </div>
                 <div class = "project_logo">
@@ -99,7 +114,7 @@
             <h2>Tic Tac Toe</h2>
             <div class = "project_two_columns">
                 <div class = "project_description">
-                    <p>Low Level Design Code for Tic Tac Toe Game.</p>
+                    <p>TicTacToe Game to showcase my code and design skills in Low Level Design in Java.</p>
                     <a href="https://github.com/mihson95/TicTacToeLLD">GitHub Link</a>
                 </div>
                 <div class = "project_logo">
@@ -112,7 +127,7 @@
             <h2>Design Patterns</h2>
             <div class = "project_two_columns">
                 <div class = "project_description">
-                    <p>Collections of Design Patterns such as singleton and Builder. More patterns I will be adding.</p>
+                    <p>A project to showcase my skills in coding Design Patterns.</p>
                     <a href="https://github.com/mihson95/design-patterns">GitHub Link</a>
                 </div>
                 <div class = "project_logo">
@@ -120,6 +135,20 @@
                 </div>
             </div>        
         </section>
+
+        <section class="project">
+            <h2>Tutorial for CS6402 Java Help</h2>
+            <div class = "project_two_columns">
+                <div class = "project_description">
+                    <p>Weekly Planned Tutorial for CS6402 Java Help. I will post solutions for Java Programming here every week to help students of CS6402.</p>
+                    <a href="https://github.com/mihson95/JavaPracticeQuestionsForCS6402">GitHub Link</a>
+                </div>
+                <div class = "project_logo">
+                    <img src="../Images/6-512.webp">
+                </div>
+            </div>
+        </section>
+        
 
         <section class="project">
             <h2>Koyari Vacation Home, Maharashtra, India Official Website</h2>
@@ -197,7 +226,7 @@
                 </ul>
             </div>
         </div>
-        <p>&copy; 2024 Mihir Sontake - All rights reserved.</p>
+        <p>&copy; 2024 Mihir Sontake</p>
         <div class="up-arrow-container">
             <button onclick="scrollToTop()"><img src="../Images/uparrow.png" alt="Scroll to top"></button>
         </div>
