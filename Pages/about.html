@@ -12,13 +12,13 @@
         <h1>About Me</h1>
         <nav>
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="portfolio.html">Projects</a></li>
-                <li><a href="resume.html">Resume/CV</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="awards.html">Awards/Academic Achievements</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="../">Home</a></li>
+                <li><a href="./">About Me</a></li>
+                <li><a href="projects">Projects</a></li>
+                <li><a href="resume">Resume</a></li>
+                <li><a href="education">Education</a></li>
+                <li><a href="awards">Academic Achievements and Certifications</a></li>
+                <li><a href="contact">Contact Me</a></li>
             </ul>
         </nav>
     </header>
@@ -26,15 +26,13 @@
     
     <main>
         <div class="circle-container">
-            <img src="../Images/NewProfileMihir.jpg" alt="My Picture" class="profile-picture">
+            <img src="../Images/Profile.jpg" alt="My Picture" class="profile-picture">
         </div>
         <div class="container">    
             <div id="content-section">
                 <section class="project">
                     <h2>Profile Summary</h2>
-                    <p>I am presently a Graduate Master's Student in Software Engineering and Data Analytics. I have a demonstrated history of leveraging innovative engineering methodologies to drive organizational success. I am seeking a job in Backend Java Development as a Mid-Senior Engineer.</p>
-                    <p>I am an experienced Senior Java Engineer skilled in software development lifecycle (SDLC) and Test Driven Development (TDD), with expertise in both Agile and Waterfall environments. Proficient in Backend Development, SQL querying, and writing REST APIs, with a knack for adding pagination to REST APIs. Adept at utilizing a range of technologies including Java, Spring Boot, Spring Framework Libraries (Spring Security, Spring Data JPA, Spring Cloud Gateway, Spring Cloud Netflix Eureka) and experienced in working with various SQL Databases (MySQL, PostgreSQL, Oracle, MS SQL Server) and NoSQL Databases (MongoDB) and CI/CD Tools (TeamCity, Azure DevOps) and proficient in API Testing (Postman and Swagger).</p>
-                    <p>Proven ability to collaborate effectively, improve development processes, and deliver impactful solutions. Committed to continuous learning and staying updated with the latest industry trends.</p>
+                    <p>I am a Master's Student in Software Engineering and Data Analytics at University of Limerick. I have a demonstrated history of leveraging innovative engineering methodologies to drive organizational success.</p>
                 </section>
                 <section class="project">
                     <h2>Background</h2>
@@ -45,34 +43,49 @@
                 </section>
                 <section class="project">
                     <h2>Profile Details</h2>
-                    <h3><b>AI/ML Skills and Libraries</b></h3>
                     <ul>
-                        <li>Machine Learning: Jupyter Notebook, Python, Pandas, Numpy, Matplotlib</li>
-                        <li>Data Mining: Seaborn, Scikit-learn</li>
-                        <li>Deep Learning: Tensorflow, Medpy, Google Colab</li>
+                        <li>
+                            Backend Development
+                            <ul>
+                                <li>
+                                    Java, Spring Boot, Rest Api, SQL
+                                </li>
+                                <li>
+                                    J2EE, Servlets, JSP
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Fullstack Development
+                            <ul>
+                                <li>
+                                    Javascript
+                                </li>
+                                <li>
+                                    Angular
+                                </li>   
+                            </ul>
+                        </li>
+                        <li>
+                            IDEs
+                            <ul>
+                                <li>
+                                    STS, Eclipse
+                                </li>
+                                <li>
+                                    VSCode
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
-                    <h3 id = "skills"><b>Expertise</b></h3>
-                    <ul>
-                        <li>Languages: Java, JavaScript, Angular, Python, Golang, SQL</li>
-                        <li>Database: JPA, Hibernate, MySQL, PostgreSQL, Oracle, MS SQL Server, MongoDB</li>
-                        <li>Web Services: Microservices, REST APIs</li>
-                        <li>Frameworks: Spring Boot, Spring Security, Spring Data JPA, Spring Cloud Gateway, Spring Cloud Netflix Eureka</li>
-                        <li>Testing: Test Driven Development, JUnit, Mockito, TestNG</li>
-                        <li>Version Control System: Git, GitHub, BitBucket, Azure DevOps</li>
-                        <li>Build & Deploy: TeamCity, Maven, Azure DevOps</li>
-                    </ul>
-                    <h3>Additional Strengths</h3>
-                    <ul>
-                        <li>Experienced in developing large-scale applications with microservices architecture and RESTful APIs.</li>
-                        <li>Proficient in cloud technologies and possesses exceptional problem-solving abilities.</li>
-                        <li>Highly motivated with a strong work ethic.</li>
-                    </ul>
+                    
+                    
                 </section>
                 
                 <section class="project">
                     <h2>Part Time Jobs</h2>
                     <ul>
-                        <li><p>Working as a Graduate Teaching Assistant for CS6402 (Intermediate Programming). I assist the faculty in preparing content for labs and help students solve them. I also work as an ICT Tutor associated with the <a href="https://ictlc.ul.ie/" style="text-decoration: none;">ICT Learning Centre</a> which is part of the <a href="https://www.ul.ie/scieng/schools-and-departments/department-computer-science-and-information-systems">Computer Science and Information System Department (CSIS) at the University of Limerick.</a></p></li>
+                        <li><p>Worked as a Graduate Teaching Assistant for CS6402 (Intermediate Programming). I assist the faculty in preparing content for labs and help students solve them. I also work as an ICT Tutor associated with the <a href="https://ictlc.ul.ie/" style="text-decoration: none;">ICT Learning Centre</a> which is part of the <a href="https://www.ul.ie/scieng/schools-and-departments/department-computer-science-and-information-systems">Computer Science and Information System Department (CSIS) at the University of Limerick.</a></p></li>
                         <li><p>Worked as a Graduate Teaching Assistant for Immersive Software Engineering cohort. I covered various classes as a TA for CI/CD, GitHub, Java, OOP, Refactoring, and assisted in student group projects.</p></li>
                     </ul>    
                 </section>
@@ -97,21 +110,23 @@
                             <li>CS5705 - Human Computer Interaction</li>
                             <li>CS5722 - Software Architecture</li>
                             <li>CS6502 - Applied Big Data and Visualisation</li>
+                            <i>Part of a team that worked on a Big Data project on Detecting Credit Card Fraud using PySpark and Google Colab. Used ML model - Logistic Regression, Perceptron, and Random Forest to predict fraudulent transaction.</i>
                             <li>CS4168 - Data Mining</li>
+                            <i>Part of a team that worked on Data Mining project Mining to Extract Insights from a Steel Industry Energy Consumption Dataset.</i>
                         </ul>
                 </section>
                 
 
                 <section class="project">
                     <h2 id = "interests">Interests/Continous Learning</h2>
-                    <p>Passionate about staying updated with the latest technologies and believe in continous learning that is required in of our times to stay ahead in our fields and become better software developers. I hope I can use all my skills at organisations I work at in the future.</p>
+                    <p>Passionate about staying updated with the latest technologies and believe in continous learning that is required in of our times to stay ahead in our fields and become better software developers. I hope to use my AI and DS skills at organisations I work at in the future.</p>
                     <ul>
                         <li>Deep Learning: <br>
-                            <p>Currently, I'm working with <a href="https://bds.ul.ie/members/kshirsagar.html">Dr. Meghana Kshirsagar (Assistant Professor of AI/ML at Computer Science and Information Systems Department at the University of Limerick)</a> on my master's dissertation. This research aligns with my aspiration to develop state of the art AI solutions.</p></li>
+                            <p>Currently, I work with <a href="https://bds.ul.ie/members/meghana-kshirsagar.html">Dr. Meghana Kshirsagar (Assistant Professor of AI/ML at Computer Science and Information Systems Department at the University of Limerick)</a> on my master's dissertation. This research aligns with my aspiration to develop state of the art AI solutions.</p></li>
                         <li>High Level Design and Architecture of Distributed Systems: <br>
-                            <p>I am studying course on Software Architecture at <a href="https://ul.ie">University of Limerick.</a> Additionally, I've done a postgraduate diploma from <a href="https://scaler.com">Scaler Academy</a> in order to improve my interview skills in High Level Design and Low Level Design. I have an interest in following Distributed Systems newsletters like <a href="https://bytebytego.com/">ByteByteGo</a> and YouTube channels such as <a href="https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw">Gaurav Sen</a> and <a href="https://www.youtube.com/c/arpitbhayani">Arpit Bhiyani.</a></p></li>
+                            <p>I attended module on Software Architecture at <a href="https://ul.ie">University of Limerick.</a> Additionally, I completed a postgraduate diploma from <a href="https://scaler.com">Scaler Academy</a> in order to improve my interview skills in High Level Design and Low Level Design. I have an interest in following Distributed Systems newsletters like <a href="https://bytebytego.com/">ByteByteGo</a> and YouTube channels such as <a href="https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw">Gaurav Sen</a> and <a href="https://www.youtube.com/c/arpitbhayani">Arpit Bhiyani.</a></p></li>
                         <li>Computer Science:
-                        <p>I am inclined to expand my knowledge across fields of software engineering and computer science such as DevOps, Software Architecture, Linux, Data Mining, Big Data, Computer Networks, and Cloud Computing, in order to become a software developer.</p></li>
+                        <p>I expand my knowledge across fields of software engineering and computer science such as DevOps, Software Architecture, Linux, Data Mining, Big Data, Computer Networks, and Cloud Computing.</p></li>
                     </ul>
                 </section>    
             </div>
@@ -128,7 +143,7 @@
                 </ul>
             </div>
         </div>
-        <p>&copy; 2024 Mihir Sontake - All rights reserved.</p>
+        <p>&copy; 2024 Mihir Sontake</p>
         <div class="up-arrow-container">
             <button onclick="scrollToTop()"><img src="../Images/uparrow.png" alt="Scroll to top"></button>
         </div>
