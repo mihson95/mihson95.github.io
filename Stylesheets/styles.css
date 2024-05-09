@@ -1,5 +1,9 @@
 /* Global Styles */
 /* Professional Corporate Theme */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -8,17 +12,63 @@ body {
     margin: 0;
     padding: 0;
 }
+main {
+    margin: 20px;
+}
+section {
+    padding-top: 140px;
+}
+header {
+    background-color: rgb(55, 71, 79);
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+}
 
-.circle-container {
-    position: absolute;
-    top: 20px;
-    left: 100px;
-    width: 120px; /* Adjust the size of the circle as needed */
-    height: 120px; /* Adjust the size of the circle as needed */
+header img {
+    width: 100px; /* Adjust the size of the circle as needed */
+    height: 100px; /* Adjust the size of the circle as needed */
     border-radius: 50%; /* Makes the container circular */
     overflow: hidden; /* Hides overflow content */
     border: 4px solid rgb(91, 39, 39); /* Adds a thick red border */
 }
+
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+
+#menu li a {
+    color: #42a5f5;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#menu li a:hover {
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
     .circle-container {
@@ -34,60 +84,15 @@ body {
     }
 }
 
-.profile-picture {
-    width: 100%; /* Makes the image fill the container */
-    height: 100%; /* Makes the image fill the container */
-    object-fit: cover; /* Scales the image to cover the container */
-}
-main {
-    margin: 20px;
-}
 
-header {
-    background-color: #37474f;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
+
 footer {
     background-color: #37474f;
     color: #B2BEB5;
     padding: 20px;
     text-align: center;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li:not(:last-child)::after {
-    content: '\2022'; /* Unicode character for a bullet point */
-    margin-left: 10px;
-    margin-right: 7px; /* Adjust the spacing between the menu item and the dot */
-    color: black; /* Color of the dot */
-}
-
-nav ul li a {
-    color: #42a5f5;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-a {
-    text-decoration: none;
-}
 
 /* Footer Styles */
 .contact_two_columns {
@@ -140,7 +145,7 @@ a {
     aspect-ratio: 1;
 }
 /* Hover Effects */
-.project, .award, .certification {
+.project {
     background-color: #424242;
     border-radius: 8px;
     padding: 20px;
@@ -149,48 +154,19 @@ a {
     transition: all 0.3s ease;
 }
 
-.project a, .award a, .certification a {
+.project a {
     color: #0077CC;
 }
 
-.project a:hover, .award a:hover, .certification a:hover {
+.project a:hover {
     color: #42a5f5;
 }
 
 
-.project:hover, .award:hover, .certification:hover {
+.project:hover {
     transform: scale(1.02);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-/* Styles for the scroll to top button */
-.up-arrow-container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-  }
-  
-  .up-arrow-container button {
-    padding: 0px;
-    border: none;
-    cursor: pointer;
-    appearance: none;
-    background-color: inherit;
-  }
-
-  .up-arrow-container img:hover {
-    transform: scale(1.2);
-    transition: 0.3s ease;
-
-  }
-  
-  .up-arrow-container img {
-    width: 100%;
-    height: 100%;
-  }
 
   /*Education Styles*/
 
