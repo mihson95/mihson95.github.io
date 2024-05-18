@@ -10,14 +10,38 @@
 <body>
     <section id="nav">
         <header>
+            <div class="menu-container">
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <nav id="dropdown-menu" class="dropdown-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#awards">Academic Achievements</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#interests">Interests</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
             <img src="Images/Profile.jpg" alt="Mihir's Profile Picture">
             <ul id="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#awards">Academic Achievements and Certifications</a></li>
+                <li><a href="#awards">Academic Achievements</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#interests">Interests</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </header>
@@ -28,7 +52,6 @@
         <section id = "home">
             <h2>Home</h2>
             <div class="project">
-                <h2>Welcome!</h2>
                 <h2>I'm Mihir Sontake.</h2>
                 <p>I'm currently a Student of <b>Masters of Science in Software Engineering and Data Analytics</b> at University of Limerick. I am a <b>Senior Java Developer who has over 4.5 years of experience</b> in developing software for large-scale systems. Currently based in Limerick, Ireland.</p>
                 <p>Organisations I have worked for:</p>
@@ -58,16 +81,47 @@
                 <p>I am pursuing a postgraduate degree in Software Engineering and Data Analytics from the University of Limerick to get me closer to my professional goals and provide me with an opportunity to gain in-depth knowledge and expertise by developing projects in the fields of Software Design, Architecture, Quality and Machine Learning, Data Mining, and Big Data and also improve my Profile to join a Technology firm as a Mid-Senior Level Software Development Professional.</p>             
             </div>
             <div class="project">
-                <h2>Profile Details</h2>
+                <h2>Course Work at University of Limerick</h2>
+                <p>I am pursuing a Master of Science in Software Engineering and Data Analytics at University of Limerick. I will be graduating in August 2024. My current QCA (or GPA) is First Class Honours (1.1).</p> 
+                <p>The following are the courses I have completed:</p>
+                    <ul>
+                        <li>CS5721 - Software Design</li>
+                        <i>Learnt about Designing Software for Enterprises following best practices such as OOP, OOAD, SOLID, Design Patterns, UML Diagrams. Implemented a group project for this course using Java 11 and Spring Boot, to showcase best practices of software design and following a plan of implementation. Assigned various roles to the group. I was the architect and designed the architecture using Microservices. Title of Project - "To do List Notification System"</i>
+                        <li>CS5741 - Concurrency and Parallelism in Software Development</li>
+                        <i>Learnt about Go Programming Language and how it is better suited for concurrency applications than other languages such as Java. Learnt Tour of Go. Implemented a project on Parallel Matrix Multiplications in Go.</i>
+                        <li>CS6501 - Machine Learning and Applications</li>
+                        <li>CS5707 - Software Development Paradigms</li>
+                        <li>CS6081 - Research Methods</li>
+                        <i>Submitted a Final Report titled - "An Overview: Agile Methods in Global Distributed Software Development" </i>
+                    </ul>
+                <p>The following are the courses I am currently enrolled in:</p>
+                    <ul>
+                        <li>CS5703 - Software Quality</li>
+                        <li>CS5705 - Human Computer Interaction</li>
+                        <li>CS5722 - Software Architecture</li>
+                        <li>CS6502 - Applied Big Data and Visualisation</li>
+                        <i>Part of a team that worked on a Big Data project on Detecting Credit Card Fraud using PySpark and Google Colab. Used ML model - Logistic Regression, Perceptron, and Random Forest to predict fraudulent transaction.</i>
+                        <li>CS4168 - Data Mining</li>
+                        <i>Part of a team that worked on Data Mining project Mining to Extract Insights from a Steel Industry Energy Consumption Dataset.</i>
+                    </ul>
+                </div>    
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="project">
                 <ul>
                     <li>
                         Backend Development
                         <ul>
                             <li>
-                                Java, Spring Boot, Rest Api, SQL
+                                Java 8, 11, Spring Boot, Rest API, SQL
                             </li>
                             <li>
                                 J2EE, Servlets, JSP
+                            </li>
+                            <li>
+                                Microservices
                             </li>
                         </ul>
                     </li>
@@ -95,56 +149,9 @@
                     </li>
                 </ul>   
             </div>
-            
-            <div class="project">
-                <h2>Part Time Jobs</h2>
-                <ul>
-                    <li><p>Worked as a Graduate Teaching Assistant for CS6402 (Intermediate Programming). I assist the faculty in preparing content for labs and help students solve them.</p></li>
-                    <li><p>Worked as a Graduate Teaching Assistant for Immersive Software Engineering cohort. I covered various classes as a TA for CI/CD, GitHub, Java, OOP, Refactoring, and assisted in student group projects.</p></li>
-                    <li><p>Worked as an ICT Tutor associated with the <a href="https://ictlc.ul.ie/">ICT Learning Centre</a> which is part of the <a href="https://www.ul.ie/scieng/schools-and-departments/department-computer-science-and-information-systems">Computer Science and Information System Department (CSIS) at the University of Limerick.</a></p></li>
-                </ul>    
-            </div>
-        
-            <div class="project">
-                <h2>Course Work at University of Limerick</h2>
-                <p>I am pursuing a Master of Science in Software Engineering and Data Analytics at University of Limerick. I will be graduating in August 2024. My current QCA (or GPA) is First Class Honours (1.1).</p> 
-                <p>The following are the courses I have completed:</p>
-                    <ul>
-                        <li>CS5721 - Software Design</li>
-                        <i>Learnt about Designing Software for Enterprises following best practices such as OOP, OOAD, SOLID, Design Patterns, UML Diagrams. Implemented a group project for this course using Java 11 and Spring Boot, to showcase best practices of software design and following a plan of implementation. Assigned various roles to the group. I was the architect and designed the architecture using Microservices. Title of Project - "To do List Notification System"</i>
-                        <li>CS5741 - Concurrency and Parallelism in Software Development</li>
-                        <i>Learnt about Go Programming Language and how it is better suited for concurrency applications than other languages such as Java. Learnt Tour of Go. Implemented a project on Parallel Matrix Multiplications in Go.</i>
-                        <li>CS6501 - Machine Learning and Applications</li>
-                        <li>CS5707 - Software Development Paradigms</li>
-                        <li>CS6081 - Research Methods</li>
-                        <i>Submitted a Final Report titled - "An Overview: Agile Methods in Global Distributed Software Development" </i>
-                    </ul>
-                <p>The following are the courses I am currently enrolled in:</p>
-                    <ul>
-                        <li>CS5703 - Software Quality</li>
-                        <li>CS5705 - Human Computer Interaction</li>
-                        <li>CS5722 - Software Architecture</li>
-                        <li>CS6502 - Applied Big Data and Visualisation</li>
-                        <i>Part of a team that worked on a Big Data project on Detecting Credit Card Fraud using PySpark and Google Colab. Used ML model - Logistic Regression, Perceptron, and Random Forest to predict fraudulent transaction.</i>
-                        <li>CS4168 - Data Mining</li>
-                        <i>Part of a team that worked on Data Mining project Mining to Extract Insights from a Steel Industry Energy Consumption Dataset.</i>
-                    </ul>
-                </div>
-            
 
-            <div class="project">
-                <h2 id = "interests">Interests/Continous Learning</h2>
-                <p>Passionate about staying updated with the latest technologies and believe in continous learning that is required in of our times to stay ahead in our fields and become better software developers. I hope to use my AI and DS skills at organisations I work at in the future.</p>
-                <ul>
-                    <li>Deep Learning: <br>
-                        <p>Currently, I work with <a href="https://bds.ul.ie/members/meghana-kshirsagar.html">Dr. Meghana Kshirsagar (Assistant Professor of AI/ML at Computer Science and Information Systems Department at the University of Limerick)</a> on my master's dissertation. This research aligns with my aspiration to develop state of the art AI solutions.</p></li>
-                    <li>High Level Design and Architecture of Distributed Systems: <br>
-                        <p>I attended module on Software Architecture at <a href="https://ul.ie">University of Limerick.</a> Additionally, I completed a postgraduate diploma from <a href="https://scaler.com">Scaler Academy</a> in order to improve my interview skills in High Level Design and Low Level Design. I have an interest in following Distributed Systems newsletters like <a href="https://bytebytego.com/">ByteByteGo</a> and YouTube channels such as <a href="https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw">Gaurav Sen</a> and <a href="https://www.youtube.com/c/arpitbhayani">Arpit Bhiyani.</a></p></li>
-                    <li>Computer Science:
-                    <p>I expand my knowledge across fields of software engineering and computer science such as DevOps, Software Architecture, Linux, Data Mining, Big Data, Computer Networks, and Cloud Computing.</p></li>
-                </ul>
-            </div>    
         </section>
+
 
         <section id="projects">
             <h2>Projects</h2>
@@ -178,8 +185,7 @@
                 <h2>Big Data Approach for Credit Card Fraud Detection</h2>
                 <div class = "project_two_columns">
                     <div class = "project_description">
-                        <p>Course Project for CS6502 - Applied Big Data and Visualization. Credit card fraud is a pervasive issue, escalating in frequency over recent years. Our project endeavours to combat this menace by harnessing the power of big data analytics and machine learning. By scrutinizing transactional data and employing advanced algorithms, we aim to unearth patterns and anomalies indicative of fraudulent activity in real time. Through this initiative, we aspire to fortify the security of financial transactions and curtail the proliferation of fraudulent practices. The output from our Project would be predicting whether a transaction is fraudulent or not fraudulent, based on the historical data which is used to train the machine learning models.</p>
-                        <p>We utilized PySpark within Jupyter Notebooks. By harnessing the power of in-memory processing, distributed computing, fault tolerance, and advanced analytics, we aimed to enhance the accuracy and efficiency of fraud detection. Our project’s goal is to safeguard financial institutions and consumers against malicious activities.</p>
+                        <p>Course Project for CS6502 - Applied Big Data and Visualization. Credit card fraud is a pervasive issue, escalating in frequency over recent years. Our project endeavours to combat this menace by harnessing the power of big data analytics and machine learning. By scrutinizing transactional data and employing advanced algorithms, we aim to unearth patterns and anomalies indicative of fraudulent activity in real time. Through this initiative, we aspire to fortify the security of financial transactions and curtail the proliferation of fraudulent practices. The output from our Project would be predicting whether a transaction is fraudulent or not fraudulent, based on the historical data which is used to train the machine learning models. We utilized PySpark within Jupyter Notebooks. By harnessing the power of in-memory processing, distributed computing, fault tolerance, and advanced analytics, we aimed to enhance the accuracy and efficiency of fraud detection. Our project’s goal is to safeguard financial institutions and consumers against malicious activities.</p>
                         <a href="https://github.com/mihson95/BigDataCreditCardFraudDetection">GitHub Link</a>
                     </div>
                     <div class = "project_logo">
@@ -331,15 +337,28 @@
             </div>
         </section>
 
-        <section id = "resume">
-            <h2>Resume</h2>
+        <section id = "experience">
+            <h2>Experience</h2>
             <div class="project">
-                <h3>Senior Software Developer, Rosmerta Technologies [2022-2023]: 1 year, 8 months</h3>
-                <h3>Software Developer, Citigroup [2017-2020]: 3 years</h3>
-                <h3>Software Developer Intern, Citigroup [2016-2016]: 2 months</h3>
+                <h2>Full Time Jobs</h2>
+                <ul>
+                    <li><h3>Senior Software Developer, Rosmerta Technologies [2022-2023]: 1 year, 8 months</h3></li>
+                    <li><h3>Software Developer, Citigroup [2017-2020]: 3 years</h3></li>
+                    <li><h3>Software Developer Intern, Citigroup [2016-2016]: 2 months</h3></li>
+                </ul>
                 <p>Resume available on request.</p>
             </div>
+            <div class="project">
+                <h2>Part Time Jobs</h2>
+                <ul>
+                    <li><p>Worked as a Graduate Teaching Assistant for CS6402 (Intermediate Programming). I assisted the students in labs to solve lab assignments in Java and prepared solutions on them.</p></li>
+                    <li><p>Worked as a Graduate Teaching Assistant for Immersive Software Engineering cohort. I covered various classes as a Teaching Assistant for CI/CD, GitHub, Java, OOP, Refactoring, and assisted students in group projects and general queries.</p></li>
+                    <li><p>Worked as an ICT Tutor with the <a href="https://ictlc.ul.ie/">ICT Learning Centre</a>. I held weekly drop-in hours to assist students in their queries. I assisted students in solving assignments in Pair Programming Labs in Java. I held weekly targeted sessions for Java for students. This involved creating presentations and questions to solve. </li>
+                </ul>    
+            </div>
         </section>
+
+
         <section id = "education">
             <h2>Education</h2>
             <div class="project">
@@ -367,9 +386,8 @@
             </div>
         </section>
         <section id = "awards">
-            <h2>Academic Achievements and Certifications</h2>
+            <h2>Awards and Academic Achievements</h2>
             <div class="project">
-                <h2>Awards and Academic Achievements</h2>
                 <ul>
                     <li>President's Volunteer Award Bronze issued by University of Limerick in 2024</li>
                     <li>Faculty of Science and Engineering merit-based International Postgraduate Scholarship 2023 issued by University of Limerick</li>
@@ -380,8 +398,11 @@
                 </ul>
             </div>
     
+            
+        </section>
+        <section id = "certifications">
+            <h2>Certifications</h2>
             <div class="project">
-                <h2>Certifications</h2>
                 <ul>
                     <li>Scaler Academy Postgraduate Diploma, 2023</li>
                     <li><a href = "https://www.coursera.org/account/accomplishments/verify/482TYT5XH3GD">Machine Learning by Coursera, 2019</a></li>
@@ -390,6 +411,23 @@
                 </ul>
             </div>
         </section>
+
+
+        <section id="interests">
+            <h2>Interests/Continous Learning</h2>
+            <div class="project">
+                <p>I am passionate about AI and Data Science particularly Data Mining, Big Data, and Deep Learning CNNs. I hope to use my AI and DS skills at organisations I work at in the future. I believe in continous learning that is required in of our times to become better software developers.</p>
+                <ul>
+                    <li>Deep Learning:<br>
+                        <p>Currently, I work with <a href="https://bds.ul.ie/members/meghana-kshirsagar.html">Dr. Meghana Kshirsagar (Assistant Professor of AI/ML at Computer Science and Information Systems Department at the University of Limerick)</a> on my master's dissertation. This research aligns with my aspiration to develop state of the art AI solutions.</p></li>
+                    <li>High Level Design and Architecture of Distributed Systems:
+                        <p>I attended module on Software Architecture at <a href="https://ul.ie">University of Limerick.</a> Additionally, I completed a postgraduate diploma from <a href="https://scaler.com">Scaler Academy</a> in order to improve my interview skills in High Level Design and Low Level Design. I have an interest in following Distributed Systems newsletters like <a href="https://bytebytego.com/">ByteByteGo</a> and YouTube channels such as <a href="https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw">Gaurav Sen</a> and <a href="https://www.youtube.com/c/arpitbhayani">Arpit Bhiyani.</a></p></li>
+                    <li>Computer Science:
+                    <p>I expand my knowledge across fields of software engineering and computer science such as DevOps, Software Architecture, Linux, Data Mining, Big Data, Computer Networks, and Cloud Computing.</p></li>
+                </ul>
+            </div>
+        </section>
+
         <section id = "contact">
             <h2>Contact</h2>
             <div class="project">
@@ -411,5 +449,11 @@
         </div>
         <p>&copy; 2024 Mihir Sontake</p>
     </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("dropdown-menu");
+            menu.classList.toggle("show");
+        }
+    </script>
 </body>
 </html>
