@@ -161,12 +161,12 @@ header img {
 }
 
 
+/* Footer Styles */
 footer {
     background-color: #fff;
     color: #333333;
     padding: 20px;
     text-align: center;
-    
 }
 
 .footer-style {
@@ -177,27 +177,36 @@ footer {
     width: 100%;
 }
 
+#footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the footer menu items */
+    padding: 0;
+    margin: 0;
+}
+
 #footer-menu li {
     list-style: none;
     display: inline-block;
     margin: 20px;
 }
 
-
 .footer-style img {
-    width: 50px;
-    height: 50px;
+    width: 12px;
+    height: 12px;
 }
 
 footer a {
     color: #333333;
+    text-decoration: none;
 }
 
 footer a:hover {
     color: #333333;
+    text-decoration: underline;
+    
 }
 
-/* Footer Styles */
 .contact_two_columns {
     display: flex;
     flex-direction: row;
@@ -250,11 +259,7 @@ footer a:hover {
 /* Hover Effects */
 .project {
     background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
 }
 
 .project a {
@@ -263,12 +268,6 @@ footer a:hover {
 
 .project a:hover {
     color: #333333;
-}
-
-
-.project:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
   /*Education Styles*/
