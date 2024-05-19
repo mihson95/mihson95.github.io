@@ -18,6 +18,11 @@ main {
 }
 section {
     padding-top: 145px;
+    text-align: justify;
+}
+
+section h2 {
+    text-align: center;
 }
 header {
     background-color: #fff;
