@@ -41,12 +41,14 @@
             <section id="home">
                 <h2>I'm Mihir Sontake.</h2>
                 <p>Currently a postgraduate student of <b>MSc in Software Engineering and Data Analytics</b> at University of Limerick and a <b>Senior Java Developer</b> with over 4.5 years of experience in large-scale systems, based in Limerick, Ireland.</p>
+                <p>Completed B.Tech from Indian Institute of Technology Madras.</p>
                 <p>Organisations I have worked for:</p>
                 <ul>
                     <li><b><a href="https://www.citigroup.com/global">Citigroup</a></b> as a Technology Analyst</li>
                     <li><b><a href="https://rosmertatech.com/overview.html">Rosmerta Technologies</a></b> as a Senior Java Developer</li>
                     <li><b><a href="https://ul.ie">University of Limerick</a></b> as a Graduate Teaching Assistant</li>
                     <li><b><a href="https://ictlc.ul.ie/">ICT Learning Centre</a></b> as an ICT Tutor</li>
+                    <li><b><a href="https://www.software-engineering.ie/">Immersive Software Engineering</a></b> as a Teaching Assistant</li>
                 </ul>
             </section>
             <section id="about">
@@ -125,8 +127,15 @@
     </footer>
     <script>
         function toggleMenu() {
-            var menu = document.getElementById("dropdown-menu");
-            menu.classList.toggle("show");
+            const menu = document.getElementById("dropdown-menu");
+            const currentVisibility = window 
+                .getComputedStyle(menu).visibility; 
+  
+            if (currentVisibility === 'hidden') { 
+                menu.style.visibility = 'visible'; 
+            } else { 
+                menu.style.visibility = 'hidden'; 
+            } 
         }
 
         document.addEventListener("DOMContentLoaded", function() {
